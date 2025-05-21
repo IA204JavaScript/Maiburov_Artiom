@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+tr.income {
+  background-color: #d4fcd4;
+}
+
+tr.expense {
+  background-color: #fcd4d4;
+}
+
+#transaction-form {
+  margin-bottom: 20px;
+}
